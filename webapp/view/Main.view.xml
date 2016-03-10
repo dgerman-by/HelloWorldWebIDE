@@ -1,9 +1,10 @@
-<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="Hello.controller.Main" xmlns:sap.ui.core="sap.ui.core">
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.core="sap.ui.core" controllerName="Hello.controller.Main">
 	<App>
 		<pages>
 			<Page title="{i18n&gt;title}">
 				<content>
 				    <Label text="Hello World" width="100%" id="__label0"/>
+				    <Button text="Button" width="100%" id="__button0"/>
 				</content>
 			</Page>
 		</pages>
